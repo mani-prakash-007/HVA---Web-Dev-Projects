@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Cinzel:wght@500&family=Kaushan+Script&family=Oswald:wght@700&family=Permanent+Marker&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Cinzel:wght@500&family=Kaushan+Script&family=Lora:ital,wght@1,600&family=Oswald:wght@700&family=Permanent+Marker&family=Space+Mono&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-size: 1.1rem;
+    background-color: aquamarine;
+    position: ;
+}
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 4em;
+    text-align: center;
+    text-transform: uppercase;
+    color:darkred;
+    border: 2px solid black;
+    border-radius: 2px solid;
+    background-color: orange;
+}
+a {
+    font-family: 'Caveat', cursive;
+    font-family: 'Cinzel', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Space Mono', monospace;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500px;
+    font-size: 2.5rem;
+}
+nav  li {
+    list-style-type: none;
+    background-color: darkcyan;
+    margin-bottom: 1.5em;
+    border: 1px solid;
+    outline: 3px solid orange;
+    border-radius: 40px;
+    text-align: center;
+}
+nav a{
+    display: block;
+    border-radius: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-decoration: none;
+}
+nav {
+    margin-right: 10%;
+    margin-left: -20px;
+    height: 85%;
+    width: 20%;
+}
+
+a:hover{
+    background-color: orange;
+    color: aquamarine;
+}
+main {
+    position: relative;
+    top: -45rem;
+    margin-left: 23%;
+    margin-right: 35%;
+}
+.image {
+    position: relative;
+    top: -70rem;
+    margin-left: 68%;
+}
+img {
+    border: 5px solid orange;
+    outline: 3px solid black;
+    height: 38rem;
+    width: 43rem;
+}
+p {
+    font-family: 'Caveat', cursive;
+    font-family: 'Cinzel', serif;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Space Mono', monospace;
+    font-weight: bolder;
+    font-size: 1.2rem;
+
+}
+.home {
+    text-align: center;
+    position: relative;
+    top: -70rem;
+    margin-right: 10%;
+}
+input{
+    font-size: 2rem;
+    background-color: orange;
+    color: black;
+    border-radius: 1.5rem;
+    padding: 10px 20px 10px;
+}
+input:hover {
+    background-color: darkcyan;
+    color: whitesmoke;
+}

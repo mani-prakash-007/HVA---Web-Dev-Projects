@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card </title>
+    <link rel="stylesheet" href="Credit.css" type="text/css">
+    <script>
+        function validateForm(){
+            var dob = document.getElementById("DoB").value;
+            var Age = document.getElementById("age").value;
+            if (Age==""){
+                alert("Age is Required");
+                return false;
+            }
+            if (!Age.match(/^(2[1-9]|[3-9]\d|\d{3})$/)){
+                alert("Minimum age is 21 years");
+                return false;
+            }
+
+            else{
+                alert ("Registered Successfully");
+                return true;
+            }
+            
+        return true;
+        }
+    </script>
+</head>
+<body>
+    <div class="topic">
+    <header>
+        <h1>Credit Card Registration </h1>
+    </header>
+    </div>s
+    <div class="credit">
+        <form action="/Credit-card-2.html" method="post" id="form" target="_blank" onsubmit="return validateForm()">
+            <h1>Birth And Age Details</h1>
+            <label for="DoB">Date of Birth <strong>*</strong></label><br>
+            <input type="date" id="DoB" ><br>
+            <label for="age">Age<strong>*</strong></label><br>
+            <input type="number" id="age" value="Age" ><br>
+            <button type="submit">Next</button>
+
+        </form>
+    </div>
+</body>
+</html>
