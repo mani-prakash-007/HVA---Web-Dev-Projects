@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Serif', serif;
+    outline: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 500%;
+    border: 2px outset black;
+    background: rgb(7,214,201);
+    background: linear-gradient(0deg, rgba(7,214,201,1) 0%, rgba(220,10,251,1) 100%);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(7,60,214);
+    background: linear-gradient(0deg, rgba(7,60,214,1) 14%, rgba(251,10,246,1) 85%);
+}
+
+.calculator{
+    background:white;
+    padding: 15px;
+    height: 60rem;
+    width: 35rem;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px rgba(0,0,0,0.5),
+                      5px 5px 12px rgba(0, 0, 0, 0.5);
+    display: grid;
+    grid-template-columns: repeat(4,8.3rem );
+                     
+}
+
+input {
+    grid-column: span 4;
+    height: 7rem;
+    width: 33.5rem;
+    background-color:rgb(245, 216, 216);
+    box-shadow: inset -5px -5px 12px rgba(0, 0, 0, 0.28),
+                inset 5px 5px 12px rgba(0,0,0,0.28);
+    text-align: right;
+    border: none;
+    border-radius: 30px;
+    color: rgb(142, 43, 43);
+    font-size: 35px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 20px;
+
+}
+
+button {
+    height: 3em;
+    width: 3em;
+    background-color: rgb(242, 193, 193);
+    box-shadow: -5px -5px 12px rgba(0, 0, 0, 0.28),
+                    5px 5px 12px rgba(0, 0, 0, 0.28);
+    border: none;
+    border-radius: 50%;
+    margin: 10px;
+    font-size: 200%;
+    font-weight: bold;
+}
+.button-color {
+    background: rgb(166,7,214);
+background: radial-gradient(circle, rgba(166,7,214,1) 0%, rgba(11,221,228,1) 100%);
+}
+
+button:hover{
+    background-color: aqua;
+    color: black;
+}
+
+.button-color:hover{
+    background: yellow;
+}
+
+.hist_box {
+    position: relative;
+    top: -45rem;
+    left: 450%;
+
+}
+
+.lol {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+
+#history {
+    height: 50rem;
+    width: 25rem;
+    overflow-y: scroll;
+    font-size: 3em;
+    background: #e28ea3;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+
+
+
+#history h3 {
+    padding: 10px 0px;
+    font-size: 1.2em;
+}
+
+#history p:last-child{
+    font-size: 1.3em;
+    color: #fff;
+    font-weight: 500;
+}
+
+
