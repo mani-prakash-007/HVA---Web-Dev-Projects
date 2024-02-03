@@ -1,0 +1,37 @@
+
+.cell{
+    height: 80px;
+    width: 80px;
+    border: 2px solid yellow;
+    box-shadow: 0 0 0 2px yellow;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+#CellContainer{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 225px;
+    margin: 0 auto;
+}
+#GameContainer{
+    font-family: "Permanent Marker",cursive;
+    text-align: center;
+    background-color: black;
+    color: green;
+}
+h1,h2 {
+    color:aqua;
+}
+button{
+    font-family: "Permanent Marker" , cursive;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    color: green;
+}
+button:hover{
+    background-color: black;
+    color: aqua;
+    box-shadow: 0 0 0 2px yellow;
+}
