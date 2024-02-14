@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    min-height: 100vh;
+    background-image: linear-gradient(-45deg, #FFC796 0%, #ff6b95 100%);
+}
+.container{
+    width: 650px;
+    background-color: aliceblue;
+    padding: 30px 30px 25px;
+    border-radius: 20px;
+}
+.container header{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.container .content {
+    margin: 40px 0;
+}
+.container .quote-area {
+    display: flex;
+    justify-content: center;
+}
+
+.quote-area i:first-child{
+    margin: 3px 10px 0 0;
+}
+.quote-area i:last-child{
+    display: flex;
+    align-items: flex-end;
+    margin: 0 0 3px 10px ;
+}
+
+.quote-area .quote{
+    font-size: 20px;
+    text-align: center;
+    word-break: break-all;
+}
+
+.content .author {
+    display: flex;
+    font-size: 17px;
+    font-style: oblique;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+.author span:first-child{
+    margin: -7px 5px 0 0;
+    font-family: monospace;
+}
+
+.container .buttons{
+    border-top: 1px solid #ccc;
+}
+.buttons .features{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+}
+.features ul {
+    display: flex;
+}
+.features ul li {
+    list-style: none;
+    margin: 5px ;
+    height: 47px;
+    width: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ff6b95 ;
+    border-radius: 50%;
+    background-color: #ff6b95 ;
+    color: white ;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+.features ul li:hover{
+    color: #ff6b95;
+    background-color: #ffffff ;
+}
+
+.features button{
+    border: none;
+    outline: none;
+    background-color: white;
+    cursor: pointer;
+    padding: 13px 27px;
+    border-radius: 30px;
+    border: 2px solid #ff6b95;
+    color: #ff6b95;
+    font-style: 16px;
+    transition: all 0.3s ease-in;
+}
+.features button:hover{
+    color: white;
+    background-color: #ff6b95;
+}
+
+button .Loading{
+    opacity: 0.7;
+    pointer-events: none;
+}
+
